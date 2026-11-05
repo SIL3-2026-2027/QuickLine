@@ -1,0 +1,9 @@
+git clone https://github.com/SIL3-2026-2027/QuickLine.git
+cd QuickLine
+git checkout -b feature/tests
+# Colle les dossiers/fichiers de ce ZIP à la racine
+git add backend/tests/
+git add backend/phpunit.xml
+git add README.md CONTRIBUTING.md DEMO_SOUTENANCE.md
+git commit -m "test: 25 tests + documentation"
+git push origin feature/tests
